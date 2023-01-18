@@ -1,3 +1,3 @@
 Personal website
 
-Deployed at [crespoter.com](http://www.crespoter.com)
+Deployed at [crespoter.com](http://www.crespoter.com) (No longer deployed)
