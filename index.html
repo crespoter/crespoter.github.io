@@ -1,324 +1,338 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link href="index.css" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="description" content="Personal website of David Christie(Crespoter)">
-        <meta name="keywords" content="Crespoter, crespoter.com, David Christie, Crespoter Graphics Engine, C++, OpenGL, Unreal Engine">
-        <meta name="author" content="David Christie">
-        <title>David Christie | Crespoter</title>
-        <link rel = "icon" href = "Resources/Images/Logos/title-bar.png" type = "image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Crespoter Interactive</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
     </head>
+    
     <body>
-        <div class = "navbar-fixed">
-            <nav class="black" >
-                <div class="nav-wrapper">
-                    <ul id="nav-mobile" class="left">
-                        <li><a href="#main-page">Home</a></li>
-                        <li><a href="#personal-projects">Personal Projects</a></li>
-                        <li><a href="#formal-info">Formal Info</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <ul id="nav-mobile" class="right">
-                        <li><i class="material-icons left">file_download</i><a target = "_blank" href = "Resources/Documents/David Resume 2022.pdf" class="right">Download Resume</a></li>
-                    </ul>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg" id="home">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Crespoter</span> Interactive</strong>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Meet The Team</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-        </div>
-        <div id ="main-page" style="min-height: 100vh" class="section scrollspy">    
-            <div class = "container">
-                <div class = "row">
-                    <div class = "col s12">
-                        <h1 class = "david-christie-main-heading">DAVID CHRISTIE</h1>
-                        <div class="stack" style="--stacks: 3;">
-                            <span style="--index: 0;">CRESPOTER</span>
-                            <span style="--index: 1;">CRESPOTER</span>
-                            <span style="--index: 2;">CRESPOTER</span>
-                        </div>
-                        <h1 class="subtitle">GAME | GRAPHICS PROGRAMMER</h1>
-                    </div>
-                </div>
-                <div class = "row">
-                    <p class = "intro">
-                        Hello There, <span class="general-kenobi">General Kenobi</span><br />
-                        I am David and welcome to my website. I am passionate about game and graphics programming. I am currently working as a software engineer at EA. 
-                    </p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>About Me</div>
-                            <div class="collapsible-body"><span>
-                                <p>
-                                    My first step into game development was when I was 15 and started making small 2d games using graphics.h library in C++. The ability to make visuals in your mind take life through the pixels on the monitor felt magical then and now. 
-                                    <br /> <br />
-                                    My interest in Computers and game development inspired me to pursue computing technology as a career. I graduated from  <a href="https://www.iiits.ac.in/">Indian Institute of Information Technology, Sricity</a> in 2019 with a bachelor's in Computer Science Engineering.
-                                    While at college, I delved deeper into game development topics and technologies such as Unity3D, Unreal Engine, and OpenGL. <br />
-                                    <br />
-                                    I am passionate about game development and I am constantly learning new topics or working on interesting personal projects, to strive towards what was then a 15-year-old's dream.
-                                    <br /> <br />
-                                    Like most people in my industry, I love video games and I especially enjoy story driven games that employ human interactions to drive the narrative. I am always excited
-                                    to play new games and experience innovative gameplays. In addition, I also appreciate other works of fiction including Movies
-                                    , Books and TV Series.
-                                </p>
-                            </span></div>
-                        </li>
-                    </ul>
-                    <br /> <br />
-                </div>
-                <center>
-                    <div class = "row" style="margin-top: 2vh">
-                        <span class = "col s1 offset-s2"><a target="_blank" href = "https://www.linkedin.com/in/davidchristiek/" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Linkedin: davidchristie.k" style="background-color: #0e76a8;"><i class="fab fa-linkedin"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "mailto:davidchristiek@gmail.com" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Email: davidchristiek@gmail.com" style="background-color: #EA4335;"><i class="far fa-envelope"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "https://steamcommunity.com/id/crespoter" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Steam: crespoter" style="background-color: #09698b;"><i class="fab fa-steam"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "https://discordapp.com/users/269545374102978561" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Discord: Crespoter#6586" style="background-color: #5865F2;"><i class="fab fa-discord"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "https://www.instagram.com/crespoter/" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Instagram: crespoter" style="background-color: #cd486b;"><i class="fab fa-instagram"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "https://www.facebook.com/davidchristie.k/" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Facebook: davidchristie.k" style="background-color: #3b5998;"><i class="fab fa-facebook"></i></a></span>
-                        <span class = "col s1"><a target="_blank" href = "https://github.com/crespoter" class="btn-floating btn-large waves-effect waves-light tooltipped pulse" data-position="top" data-tooltip="Github: crespoter" style="background-color: white;"><i class="fab fa-github black-text"></i></a></span>
 
-                    </div>
-                </center>
-            </div>
-        </div>
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="images/cres-images/jalay-forest.jpg" class="img-fluid" alt="">
 
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Full Stack Game Development</h1>
 
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">We are a game development studio specialising in Programming, Concept Art, 2D art, UI, 3D environments, Animations and Materials.</p>
 
-        <div class = "page-divider"></div>
-        <div id = "personal-projects" style="margin-top: 10vh;" class="section scrollspy">
-            <div class = "container">
-                <div class = "row">
-                    <center><h1>Personal Projects</h1></center>
-                </div>
-                <div class="row" style="margin-top: 5vh">
-                    <div class="col l6 s10">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="Resources/Images/Projects/crespoter-graphics-engine-output.jpeg" ">
-                            </div>
-                            <div class="card-content white-text">
-                                <span class="card-title black-text">Graphics Engine</span>
-                                <br />
-                                <p class = "black-text">A graphics engine made using C++ and OpenGL.<br />
-                                    <ul class = "black-text">
-                                        <li><i class="material-icons tiny">check</i> Blinn-Phong Lighting Model</li>
-                                        <li><i class="material-icons tiny">check</i> Directional and Point light sources</li>
-                                        <li><i class="material-icons tiny">check</i> Loading 3D Wavefront models with textures and materials</li>
-                                        <li><i class="material-icons tiny">check</i> Shadows</li>
-                                        <li><i class="material-icons tiny">check</i> Skybox</li>
-                                    </ul>
-                                    Technologies Used:
-                                </p>
-                                <br />
-                                <img src = "Resources/Images/Stack/cpp-logo.png" class="logo tooltipped" data-position="top" data-tooltip="C++" />
-                                <img src = "Resources/Images/Stack/opengl.jfif" class="logo tooltipped" data-position="top" data-tooltip="OpenGL" />
-                                <br /> <br /> <br />
-                                <div class ="row">
-                                    <a class="waves-effect waves-light btn blue col s4" href="https://github.com/crespoter/Crespoter-Graphics-Engine" target="_blank"><i class="material-icons left">code</i>Source Code</a>
+                                    <a href="about.html" class="btn custom-btn">Get In Touch</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col l6  s10">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="Resources/Images/Projects/serve-em.jpeg" ">
-                            </div>
-                            <div class="card-content white-text">
-                                <span class="card-title black-text">Serve'Em</span>
-                                <br />
-                                <p class = "black-text">Serve'Em is a restaurant management game made using Unity3D.<br />
-                                    Source code is available at <a href = "https://github.com/crespoter/Serveem">Github</a>
-                                    <br /> <br />
-                                    Technologies Used:
-                                </p>
-                                <br />
-                                <img src = "Resources/Images/Stack/unity.png" class="logo tooltipped" data-position="top" data-tooltip="Unity3D" /> 
-                                <br /> <br />
-                                <a class="waves-effect waves-light btn blue" href="https://github.com/crespoter/Serveem" target="_blank"><i class="material-icons left">code</i>Source Code</a>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/cres-images/harsh-forest.jpg" class="img-fluid" alt="" style = "margin-left: -25px; margin-top: -50px">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Experienced full development team</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Our team has a combined experience of over 35 years in game development and have worked on titles such as Prince of Persia, Skull and Bones, Battlefield Mobile, Real Racing 3, Raji: An Ancient Epic etc</p>
+
+                                    <a href="about.html" class="btn custom-btn">Get In Touch</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class = "page-divider" style="margin-top: 15vh;"></div>
-        <div class = "container section scrollspy" id = "formal-info">
+                <div class="slick-custom">
+                    <img src="images/cres-images/harsh-monster.jpg" class="img-fluid" alt="">
 
-            <div class = "row">
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Expertise in Unreal Engine</h1>
 
-                <div id="experience" class="col s6">
-                    <h1>Experience</h1>
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Experts in unreal engine that can work on a full game development cycle</p>
+
+                                    <a href="about.html" class="btn custom-btn">Get In Touch</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="front-product">
+				<div class="container">
+					<br />
                     <div class="row">
-                        <div class="col s12">
-                        <div class="card  horizontal">
-                            <div class="card-image valign-wrapper" >
-                                <img src="Resources/Images/Logos/EA.png" style="width: 200px;" class="responsive-img"/>
-                            </div>
-                            <div class="card-content" style="border-left: 3px solid black">
-                                <span class="card-title black-text">Software Engineer</span>
-                                <p class = "black-text"><i class="material-icons tiny black-text">date_range</i> June 2021 - Present<p>
-                                <p class = "black-text"><i class="material-icons tiny black-text">location_on</i> Hyderabad, India</p>
-                                <br />
-                                <p class = "black-text">Part of Industrial Toys Incubation team. Worked on Gameplay and AI Programming for multiple Incubation projects<br /><br />
-                                Technologies Used:
-                                    <br /> <br />
-                                <img src = "Resources/Images/Stack/cpp-logo.png" class="logo tooltipped" data-position="top" data-tooltip="C++" />
-                                <img src = "Resources/Images/Stack/ue-logo.png" class="logo tooltipped" data-position="top" data-tooltip="Unreal Engine" />
-                                <img src = "Resources/Images/Stack/perforce-logo.png" class="logo tooltipped" data-position="top" data-tooltip="Perforce" />
-                                </p>
-                            </div>
-                        </div>
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5"><span>Meet</span> the Team</h2>
                         </div>
                     </div>
+                </div>
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
 
+                        <div class="col-lg-4 col-12">
+                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
+                        </div>
 
+                        <div class="col-lg-8 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4" style="margin-bottom: 0;">David Christie</h2>
+								<h6 style="margin-top: 0;"><span style="font-size: large;">Gameplay Programmer</span></h6>
 
-                    <div class="row" style="margin-top: 5vh;">
-                        <div class="col s12">
-                            <div class="card horizontal">
-                                <div class="card-image valign-wrapper">
-                                    <img src="https://yt3.ggpht.com/qD6J_ijTzwoDPaXxsBsfyB4NOxz_AI9eajNZsu3h4FyQLRxuy8qcjRj5L7puM57ibLqITmf5og=s900-c-k-c0x00ffffff-no-rj" style="width: 200px;" class="responsive-img">
-                                </div>
-                                <div class="card-content black-text" style="border-left: 3px solid black">
-                                    <span class="card-title ">Software Development Engineer</span>
-                                    <p class = "black-text"><i class="material-icons tiny">date_range</i> June 2019 - April 2021 (1 Year, 9 Months)<p>
-                                    <p class = "black-text"><i class="material-icons tiny">location_on</i> Bangalore, India</p>
-                                    <br />
-                                    <p class = "black-text">Was part of multiple features of the product including frontend, backend, cloud and mobile.<br /><br />
-                                    Technologies Used:
-                                        <br /> <br />
-                                        <img src = "Resources/Images/Stack/javascript.png" class="logo tooltipped" data-position="top" data-tooltip="Javascript/Typescript" />
-                                        <img src = "Resources/Images/Stack/aws.jfif" class="logo tooltipped" data-position="top" data-tooltip="AWS Cloud Services" />
-                                        <img src = "Resources/Images/Stack/angular.svg" class="logo tooltipped" data-position="top" data-tooltip="Angular" />
-                                        <img src = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" class="logo tooltipped" data-position="top" data-tooltip="Git" />
-                                        <img src = "Resources/Images/Stack/ionic.jpg" class="logo tooltipped" data-position="top" data-tooltip="Ionic" />
-                                        <img src = "Resources/Images/Stack/serverless-logo.png" class="logo tooltipped" data-position="top" data-tooltip="Serverless" />
+                                <p class="mb-4">
+									David Christie is a Game programmer with over 5 years of experience. He is an expert in Unreal Engine Blueprint and C++ programming and have
+									worked on titles such as Battlefield Mobile, UFC Mobile and Real Racing 3.
+								</p>
+								<h5><span>Links</span></h5>
+                                <a href = "https://www.linkedin.com/in/davidchristiek/"><i class="bi bi-linkedin h2"></i></a>
+								<a href = "https://github.com/crespoter" style="margin-left: 20px;"><i class="bi bi-github h2"></i></a>
 
-
-                                    </p>
-                                </div>
+								
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="container-fluid p-0" style="margin-top: 10%;">
+                    <div class="row align-items-center">
 
-
-                <div id = "education" class="col s5 offset-s1">
-                        <div class = "row">
-                            <center><h1>Education</h1></center>
+                        <div class="col-lg-4 col-12">
+                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
                         </div>
-        
-                        <div class="row">
-                                                                
-                            <div class="card horizontal col-s-12">
-                                <div class="card-image valign-wrapper">
-                                    <img src="Resources/Images/Logos/iiits.png" class="circle responsive-image" style="width: 200px;" />
-                                </div>
-                                <div class="card-content" style="border-left: 3px solid black">
-                                    <span class="card-title activator grey-text text-darken-4">Indian Institute of Information Technology, Sricity</span>
-                                    <i class="material-icons tiny">date_range</i> 2015-2019 <br /> <br />
-                                    B.Tech in Computer Science Engineering
-                                </div>
+
+                        <div class="col-lg-8 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4" style="margin-bottom: 0;">David Christie</h2>
+								<h6 style="margin-top: 0;"><span style="font-size: large;">Programmer</span></h6>
+
+                                <p class="mb-4">
+									David Christie is a Game programmer with over 5 years of experience. He is an expert in Unreal Engine Blueprint and C++ programming and have
+									worked on titles such as Battlefield Mobile, UFC Mobile and Real Racing 3.
+									
+								</p>
+                                <a href="products.html" class="custom-link">
+                                    Explore Products
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>        
-        </div>
+				
+            </section>
 
 
-       
-        
-        <div class = "page-divider" style="margin-top: 15vh;"></div>
 
-        <div id="contact" class="section scrollspy">
-            <div class = "container">
-                <div class = "row">
-                    <center><h1>Contact</h1></center>
-                </div>
-                <div class = "row">
 
-                    <div class = "col s6">
-                        <div class = "row">              
-                            <div class="col s12 m12">
-                                <div class="card blue-grey darken-4">
-                                    <div class="card-content white-text">
-                                        <span class="card-title">Feel free to message me about anything. I usually respond back within a day</span>
-                                        <br />
-                                        <div class = "row">
-                                            <form id="contact-form" class = "row" style="padding: 2%; padding-top:0">
-                                                <input type="hidden" name="contact_number">
-                                                <div class = "input-field col s12">
-                                                    <label>Name</label>
-                                                    <input type="text" name="user_name" required class="white-text">
-                                                </div>
-                                                <div class="input-field col s12">
-                                                    <input id="email" type="email" class="validate white-text" name="user_email" required>
-                                                    <label for="email">Email</label>
-                                                </div>
-                                                <div class="input-field col s12">
-                                                    <textarea name="message" class="materialize-textarea white-text" required style="min-height: 10vh;"></textarea>
-                                                    <label>Message</label>
-                                                </div>
-                                                <button class = "btn blue lighten-1" type = "submit" style="margin-left: 0.5vw" id="contact-form-submit-button">Send <i class="material-icons right" >send</i></button>
-                                            </form>
-                                        </div>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Featured Products</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">New Arrival</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                        </h5>
+
+                                        <p class="product-p">Original package design from house</p>
                                     </div>
 
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
                                 </div>
                             </div>
-                            <br />
+                        </div>
 
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">Low Price</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Fashion Set</a>
+                                        </h5>
+
+                                        <p class="product-p">Costume Package</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class = "col s6">
-                        <div class = "row" style="margin-left: 2vw">
-                            <h6 class="white-text">You can also reach me at my email address: davidchristiek@gmail.com or any of the platforms listed below</h5>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Juice Drinks</a>
+                                        </h5>
+
+                                        <p class="product-p">Nature made another world</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
+                                </div>
+                            </div>
                         </div>
-                        <div class = "row" style="margin-left:10%; margin-top: 10vh">
-                            <span class = "col s2"><a target="_blank" href = "https://www.linkedin.com/in/davidchristiek/" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Linkedin: davidchristie.k" style="background-color: #0e76a8;"><i class="fab fa-linkedin"></i></a></span>
-                            <span class = "col s2"><a target="_blank" href = "https://steamcommunity.com/id/crespoter" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Steam: crespoter" style="background-color: #09698b;"><i class="fab fa-steam"></i></a></span>
-                            <span class = "col s2"><a target="_blank" href = "https://discordapp.com/users/269545374102978561" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Discord: Crespoter#6586" style="background-color: #5865F2;"><i class="fab fa-discord"></i></a></span>
-                            <span class = "col s2"><a target="_blank" href = "https://www.instagram.com/crespoter/" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Instagram: crespoter" style="background-color: #cd486b;"><i class="fab fa-instagram"></i></a></span>
-                            <span class = "col s2"><a target="_blank" href = "https://www.facebook.com/davidchristie.k/" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Facebook: davidchristie.k" style="background-color: #3b5998;"><i class="fab fa-facebook"></i></a></span>
-                            <span class = "col s2"><a target="_blank" href = "https://github.com/crespoter" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="top" data-tooltip="Github: crespoter" style="background-color: white;"><i class="fab fa-github black-text"></i></a></span>
+
+                        <div class="col-12 text-center">
+                            <a href="products.html" class="view-all">View All Products</a>
                         </div>
-                        <div class = "row" style="margin-top: 10vh;">
-                            <a class = "btn waves-effect waves-light btn-large" style="margin-left: 35%" target = "_blank" href = "Resources/Documents/David Resume 2022.pdf"><i class="material-icons left">file_download</i>Download Resume</a>
-                        </div>
-                    </div>
 
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        
-        <br />
-        <br />
-        <br />
+            </section>
 
-        <footer class="page-footer grey darken-4" style="padding:0">
-            <div class="footer-copyright">
-              <div class="container">
-              © 2022 David Christie (Crespoter)
-              </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </footer>
 
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
 
-
-
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-        <script type="text/javascript">
-            (function() {
-                emailjs.init('user_rbtVyL5O0LXINDAZ0R33n');
-            })();
-        </script>
-
-        <script src="index.js"></script>
     </body>
 </html>
